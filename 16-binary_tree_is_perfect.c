@@ -6,7 +6,8 @@
  */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
-	int left_height, right_height;
+	int left_height = 0;
+	int right_height = 0;
 
 	if (tree == NULL)
 		return (1);
